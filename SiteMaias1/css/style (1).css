@@ -1,0 +1,85 @@
+html {
+    font-size: clamp(1rem, calc(1.2rem + 2vw), 1.625rem);
+    background-color: #bfbfc0;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    display: flex;
+    gap: 20px;
+    background-color: #9e715a;
+    justify-content: space-between;
+}
+
+header img {
+    padding: 6px 0 0 0;
+    width: 5rem;
+    height: auto;
+}
+
+header ul {
+    display: flex;
+    font-size: 0.67rem;
+    text-align: end;
+    color: rgb(255, 255, 255);
+}
+
+header ul li:hover {
+    color: black;
+}
+
+header ul li {
+    padding: 1vw 2vw 1vw 2vw
+}
+main{
+    display: flex;
+}
+section{
+
+    background-color: rgb(223, 227, 230);
+    border-radius: 47px;
+    margin: 2vw;
+}
+section.topicos {
+    background-color: #9e715a;
+}
+section.topicos ul li{
+    padding: 2.7vw;
+    margin: 2.7vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3vw;
+    font-size: small;
+}
+
+section.primeiro h1{
+    padding: 2vw 5vw 7vw 2vw;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: oblique;
+}
+section.primeiro{
+padding: 10px 20px 10px 20px;
+}
+section.primeiro p{
+    padding: 3vw 0 3px 0;
+}
+footer{
+    background-color: #9e715a;
+    padding: 10px 0 10vw 0;
+    text-align: center;
+}
+footer a img{
+    width: 1rem;
+    height: auto;
+}
+footer p{
+    font-weight: lighter;
+    font-size: small;
+    color: #2a2a2a;
+}
+
+/* a partir daqui não sei o que faço*/
+
+@media only screen and (max-width: 600px) {
+
+}
