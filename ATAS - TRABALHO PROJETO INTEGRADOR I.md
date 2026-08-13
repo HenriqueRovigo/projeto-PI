@@ -118,3 +118,22 @@ contemplando seus aspectos históricos, culturais, científicos e arquitetônico
 
 - Emanuel fez grande parte do index inicial. 
 
+## ATA 7 (13/08/2026)
+ 
+Assunto: Verificar cada página que cada um foi  responsável por fazer.
+
+Ausentes: Davi (justificativa: não justificada).
+		Nicolly (justificativa: problemas pessoais)
+
+Decisões:
+Todos correram atrás de separar as partes práticas. para o trabalho(Qual site cada um faz).
+Emanuel fez as ATAs do grupo por hoje.
+Henrique fez o CSS para celular do site principal e iniciou sua página.
+Todos adicionaram novos arquivos para o Github do projeto.
+
+
+**Encaminhamentos:**
+Emanuel fez grande parte do index inicial.
+Henrique recebeu as ATAs e o Index atualizado.
+Ana está resumindo os textos de informação para compensar o pouco tempo que temos.
+
