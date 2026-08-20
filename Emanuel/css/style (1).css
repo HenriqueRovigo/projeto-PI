@@ -1,16 +1,24 @@
 html {
     font-size: clamp(1rem, calc(1.2rem + 2vw), 1.625rem);
-    background-color: #bfbfc0;
+    background-color: #ebd77e;
     margin: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header {
     display: block;
     gap: 20px;
-    background-color: #9e715a;
+    background-color: #eb922c;
     text-align: center;
 }
-
+p{
+    color: rgb(146, 53, 10);
+}
+h1{
+    color: rgb(146, 53, 10);
+}
+h2{
+    color: rgb(146, 53, 10);
+}
 header img {
     padding: 6px 0 0 0;
     width: 5rem;
@@ -21,11 +29,11 @@ header ul {
     text-align: center;
     font-size: 0.67rem;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 header ul li:hover {
-    color: black;
+    color: rgb(146, 53, 10);
 }
 
 header ul li {
@@ -36,12 +44,12 @@ main{
 }
 section{
 
-    background-color: rgb(223, 227, 230);
+    background-color: white;
     border-radius: 47px;
     margin: 2vw;
 }
 section.topicos {
-    background-color: #9e715a;
+    background-color: #eb922c;
     padding: 3.6vw;
 }
 section.topicos ul li{
@@ -66,7 +74,7 @@ section.primeiro p{
     padding: 3vw 0 3px 0;
 }
 footer{
-    background-color: #9e715a;
+    background-color: #eb922c;
     padding: 10px 0 10vw 0;
     text-align: center;
 }
@@ -77,7 +85,7 @@ footer a img{
 footer p{
     font-weight: lighter;
     font-size: small;
-    color: #2a2a2a;
+    color: rgb(146, 53, 10);
 }
 
 /* a partir daqui não sei o que faço*/
@@ -85,14 +93,14 @@ footer p{
 @media only screen and (min-width: 600px) {
 html {
     font-size: clamp(1rem, calc(1.2rem + 2vw), 1.625rem);
-    background-color: #bfbfc0;
+    background-color: #ebd77e;
     margin: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header {
     display: flex;
     gap: 20px;
-    background-color: #9e715a;
+    background-color: #eb922c;
     justify-content: space-between;
 }
 
@@ -110,7 +118,7 @@ header ul {
 }
 
 header ul li:hover {
-    color: black;
+    color: rgb(146, 53, 10);
 }
 
 header ul li {
@@ -121,17 +129,17 @@ main{
 }
 section{
 
-    background-color: rgb(223, 227, 230);
+    background-color: rgb(255, 255, 255);
     border-radius: 47px;
     margin: 2vw;
 }
 section.topicos {
-    background-color: #9e715a;
+    background-color: #eb922c;
 }
 section.topicos ul li{
     padding: 2.7vw;
     margin: 2.7vw;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     border-radius: 3vw;
     font-size: small;
 }
@@ -149,7 +157,7 @@ section.primeiro p{
     padding: 3vw 0 3px 0;
 }
 footer{
-    background-color: #9e715a;
+    background-color: #eb922c;
     padding: 10px 0 10vw 0;
     text-align: center;
 }
@@ -160,6 +168,6 @@ footer a img{
 footer p{
     font-weight: lighter;
     font-size: small;
-    color: #2a2a2a;
+    
 }
 }
