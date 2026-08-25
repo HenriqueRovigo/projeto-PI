@@ -147,6 +147,10 @@ section.topicos ul li{
     font-size: small;
 }
 
+section.topicos ul li a img {
+    width: 60vw;
+}
+
 section.primeiro h1{
     padding: 2vw 5vw 7vw 2vw;
     font-size: larger;
