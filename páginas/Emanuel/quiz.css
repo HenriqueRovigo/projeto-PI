@@ -8,9 +8,10 @@ button{
     background-color: rgb(146, 53, 10);
     color: #eb922c;
     border: none;
-    padding: 30px;
+    padding: 10px;
     width: 80%;
     margin-top: 10px;
     cursor: pointer;
     border-radius: 4px;
 }
+
