@@ -1,0 +1,183 @@
+html {
+    font-size: clamp(1rem, calc(1.2rem + 2vw), 1.625rem);
+    background-color: #ebd77e;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    display: block;
+    gap: 20px;
+    background-color: #eb922c;
+    text-align: center;
+}
+p{
+    color: rgb(146, 53, 10);
+}
+span{
+    color: rgb(214, 4, 46);
+}
+h1{
+    color: rgb(146, 53, 10);
+}
+h2{
+    color: rgb(146, 53, 10);
+}
+header img {
+    padding: 6px 0 0 0;
+    width: 5rem;
+    height: auto;
+}
+
+header ul {
+    text-align: center;
+    font-size: 0.67rem;
+    text-align: center;
+    color: white;
+}
+
+header ul li:hover {
+    color: rgb(146, 53, 10);
+}
+
+header ul li {
+    padding: 1vw 2vw 1vw 2vw
+}
+main{
+    align-items: flex-start;
+}
+section{
+
+    background-color: white;
+    border-radius: 47px;
+    margin: 2vw;
+}
+section.topicos {
+    background-color: #eb922c;
+    padding: 3.6vw;
+}
+section.topicos ul li{
+    padding: 2.7vw;
+    margin: 2.7vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5vw;
+    font-size: small;
+    font-weight: lighter;
+    font-size: small;
+    color: rgb(146, 53, 10);
+}
+
+section.primeiro h1{
+    padding: 2vw 5vw 7vw 2vw;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: oblique;
+}
+section.primeiro{
+padding: 10px 20px 10px 20px;
+word-wrap: break-word
+}
+section.primeiro p{
+    padding: 3vw 0 3px 0;
+}
+footer{
+    background-color: #eb922c;
+    padding: 10px 0 10vw 0;
+    text-align: center;
+}
+footer a img{
+    width: 1rem;
+    height: auto;
+}
+footer p{
+    font-weight: lighter;
+    font-size: small;
+    color: rgb(146, 53, 10);
+}
+
+/* a partir daqui não sei o que faço*/
+
+@media only screen and (min-width: 600px) {
+html {
+    font-size: clamp(1rem, calc(1.2rem + 2vw), 1.625rem);
+    background-color: #ebd77e;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    display: flex;
+    gap: 20px;
+    background-color: #eb922c;
+    justify-content: space-between;
+}
+
+header img {
+    padding: 6px 0 0 0;
+    width: 5rem;
+    height: auto;
+}
+
+header ul {
+    display: flex;
+    font-size: 0.67rem;
+    text-align: end;
+    color: rgb(255, 255, 255);
+}
+
+header ul li:hover {
+    color: rgb(146, 53, 10);
+}
+
+header ul li {
+    padding: 1vw 2vw 1vw 2vw
+}
+main{
+    display: flex;
+}
+section{
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 47px;
+    margin: 2vw;
+}
+section.topicos {
+    background-color: #eb922c;
+}
+section.topicos ul li{
+    padding: 2.7vw;
+    margin: 2.7vw;
+    background-color: white;
+    border-radius: 3vw;
+    font-size: small;
+}
+
+section.topicos ul li a img {
+    width: 60vw;
+}
+
+section.primeiro h1{
+    padding: 2vw 5vw 7vw 2vw;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: oblique;
+}
+section.primeiro{
+padding: 10px 20px 10px 20px;
+}
+section.primeiro p{
+    padding: 3vw 0 3px 0;
+}
+footer{
+    background-color: #eb922c;
+    padding: 10px 0 10vw 0;
+    text-align: center;
+}
+footer a img{
+    width: 1rem;
+    height: auto;
+}
+footer p{
+    font-weight: lighter;
+    font-size: small;
+    
+}
+}
