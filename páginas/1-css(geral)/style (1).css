@@ -1,7 +1,6 @@
 html {
     font-size: clamp(1rem, calc(1.2rem + 2vw), 1.625rem);
     background-color: #ebd77e;
-    margin: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header {
@@ -94,15 +93,10 @@ footer p{
     color: rgb(146, 53, 10);
 }
 
-/* a partir daqui não sei o que faço*/
+
 
 @media only screen and (min-width: 600px) {
-html {
-    font-size: clamp(1rem, calc(1.2rem + 2vw), 1.625rem);
-    background-color: #ebd77e;
-    margin: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 header {
     display: flex;
     gap: 20px;
