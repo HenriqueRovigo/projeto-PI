@@ -7,8 +7,8 @@ section.primeiro ol {
     padding: 0 0 20px 0;
 }
 
-button {
-
+label {
+    display: inline-block;
     border-color: rgb(146, 53, 10);
     color: #eb922c;
     border: solid;
@@ -35,4 +35,10 @@ button:focus {
     color: rgb(146, 53, 10);
     border: solid;
     margin: 67px 0 0 0;
+}
+ol > li{
+    display: none;
+}
+ol > li:first-child{
+    display: block;
 }

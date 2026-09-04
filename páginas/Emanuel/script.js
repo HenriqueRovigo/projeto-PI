@@ -1,12 +1,11 @@
-let respostas = [b1 , d2, b3 , a4 , c5];
-let corretas = [b1 , d2, b3 , a4 , c5];
-let verifik = 0;
-let pontuacao = 0;
+//b1 , d2, b3 , a4 , c5
 
-for (verifik < 5; verifik++;) {
-
-    if (respostas[verifik] == corretas[verifik]) {
-        pontuacao++;
+function validarResposta(elemento, pergunta) {
+    console.log(pergunta)
+    console.log(elemento)
+    pergunta = parseInt(pergunta)
+    if (pergunta < 5) {
+        document.getElementById("perg" + pergunta).style.display = "none"
+        document.getElementById("perg" + (pergunta+1)).style.display = "block"
     }
-
 }
