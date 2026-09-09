@@ -3,9 +3,12 @@
 function validarResposta(elemento, pergunta) {
     console.log(pergunta)
     console.log(elemento)
-    pergunta = parseInt(pergunta)
+    pergunta = parseInt(pergunta);
     if (pergunta < 5) {
+
         document.getElementById("perg" + pergunta).style.display = "none"
-        document.getElementById("perg" + (pergunta+1)).style.display = "block"
+        document.getElementById("perg" + (pergunta + 1)).style.display = "block"
+        
     }
 }
+
