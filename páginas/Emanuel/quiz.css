@@ -1,8 +1,8 @@
 section {
     text-align: center;
-    margin: 20px 0 50px 0;
+    margin: 20px 20px 50px 20px;
 }
-section.primeiro ol {
+section ol {
     padding: 0 0 20px 0;
 }
 
@@ -43,4 +43,9 @@ ol>li {
 
 ol>li:first-child {
     display: block;
+}
+section#resultadoFinal{
+    display: none;
+    width: 100%;
+    padding: 20vw 0 20vw 0;
 }
