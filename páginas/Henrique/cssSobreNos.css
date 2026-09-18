@@ -1,7 +1,6 @@
 html {
     font-size: clamp(1rem, calc(1.2rem + 2vw), 1.625rem);
     background-color: #ebd77e;
-    margin: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header {
@@ -12,7 +11,6 @@ header {
 }
 
 header img {
-    padding: 6px 0 0 0;
     width: 5rem;
     height: auto;
 }
@@ -50,6 +48,15 @@ section.topicos ul li{
     border-radius: 3vw;
     font-size: small;
 }
+p {
+    color: rgb(146, 53, 10);
+}
+h1 {
+    color: rgb(146, 53, 10);
+}
+h2 {
+    color: rgb(146, 53, 10);
+}
 
 section.topicos ul li a img {
     width: 60vw;
@@ -72,7 +79,6 @@ section.primeiro ul {
 }
 footer{
     background-color: #eb922c;
-    padding: 10px 0 10vw 0;
     text-align: center;
 }
 footer a img{
