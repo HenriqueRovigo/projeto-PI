@@ -14,7 +14,7 @@ O projeto apresenta a **Civilização Maia**, abordando diferentes aspectos da s
 - Henrique Gameiro Rovigo
 - Nicolly Cristina Gil de Oliveira
 
-## 📋 Registro das atas
+## Registro das atas
 
 As atas abaixo registram as principais decisões, atividades e encaminhamentos realizados pelo grupo durante o desenvolvimento do projeto.
 
