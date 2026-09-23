@@ -2,11 +2,11 @@
 
 Projeto desenvolvido para a **SEPE 2026 — Semana de Ensino, Pesquisa e Extensão**, pelo curso de **Informática para Internet — 1INFO2**, do IFC Campus Araquari.
 
-## 🌎 Sobre o projeto
+## Sobre o projeto
 
 O projeto apresenta a **Civilização Maia**, abordando diferentes aspectos da sua história, cultura, política, conhecimentos e legado. O objetivo é reunir essas informações em um site de forma simples e organizada.
 
-## 👥 Integrantes
+## Integrantes
 
 - Ana Clara Teixeira Mota
 - Davi Lucas Moreira
@@ -66,7 +66,7 @@ A aula extra foi usada para continuar e finalizar partes do projeto. Nicolly aju
 
 Os integrantes presentes continuaram as pesquisas sobre a Civilização Maia e ajudaram Ana a organizar as informações no Google Docs. Também foi decidido que os conteúdos não precisariam mais ficar no topo das páginas, sendo reorganizados de acordo com a nova estrutura do site.
 
-## 📅 Período das atas
+## Período das atas
 
 **11/06/2026 a 10/09/2026**
 
