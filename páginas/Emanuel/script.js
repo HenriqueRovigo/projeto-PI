@@ -17,11 +17,14 @@ function validarResposta(elemento, pergunta) {
         mostrarResultado()
     }
 }
-//preciso pesquisar uma função para o processamento.
-//meu ideal seria: resposta escolhida --> verifica pelo ID do elemento --\/
-//--> esse ID vai ter o valor 1 para certo e 0 para errado, que vai ser incrementando em outra let --\/
-//--> o número de acertos será verificado em um ninho de IFs, com diferentes reações em texto --\/
-//--> apresenta o percentual de acertos e o texto de reação.
+//dicas
+
+function Dicabtn() {
+    document.getElementById("Dica").style.display = "block"
+
+}
+
+//processamento e saída
 function mostrarResultado() {
     let respostas = document.querySelectorAll("main input:checked")
     console.log(respostas)

@@ -49,3 +49,6 @@ section#resultadoFinal{
     width: 100%;
     padding: 20vw 0 20vw 0;
 }
+section.primeiro ol li div{
+    display: none;
+}
