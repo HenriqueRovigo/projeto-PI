@@ -1,4 +1,4 @@
-//RESPOSTAS: b1 , d2, b3 , a4 , c5
+//RESPOSTAS: b , d, b , a , c
 //  uma função serve para armazenar e repetir certas linhas de
 //comando várias vezes, tal qual uma variável.
 //  essa function, serve para passar as perguntas ao usuário,
