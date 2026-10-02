@@ -210,13 +210,9 @@ footer p{
 section.nos {
     padding: 5vw
 }
-section.nos ul{
+.nos {
     display: flex;
-    justify-content: flex-start;
-    font-family: Oswald;
-}
-.nos ul li {
-    margin-left: 5.5vw;
+    text-align: center;
 }
 .nos img {
     width: 200px;
@@ -224,6 +220,7 @@ section.nos ul{
     object-fit: cover;
     border-radius: 20px;
 }
+
 .funcao {
     text-align: center;
     padding: 10px 5px 10px 5px;
