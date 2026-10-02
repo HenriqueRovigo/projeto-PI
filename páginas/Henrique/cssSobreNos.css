@@ -92,6 +92,7 @@ section.nos ul{
     display: block;
     justify-content: flex-start;
     font-family: Oswald;
+    border-radius: 10px;
 }
 .nos ul li {
     margin-left: 5.5vw;
@@ -100,6 +101,7 @@ section.nos ul{
     width: 200px;
     height: 200px;
     object-fit: cover;
+    border-radius: 20px;
 }
 .funcao {
     text-align: center;
@@ -220,6 +222,7 @@ section.nos ul{
     width: 200px;
     height: 200px;
     object-fit: cover;
+    border-radius: 20px;
 }
 .funcao {
     text-align: center;
