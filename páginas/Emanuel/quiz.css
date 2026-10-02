@@ -52,3 +52,12 @@ section#resultadoFinal{
 section.primeiro ol li div{
     display: none;
 }
+section.primeiro{
+    width: 100%;
+    padding: 5vw 0 5vw 0;
+}
+section#resultadoFinal h1{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 3vw;
+}
