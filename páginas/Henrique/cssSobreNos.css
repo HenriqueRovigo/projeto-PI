@@ -91,29 +91,10 @@ footer p{
     
 }
 section.nos {
-    padding: 5vw
+    padding: 10vw
 }
 section.nos ul{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     font-family: Oswald;
-}
-.nos ul li {
-    margin-left: 5.5vw;
-}
-.nos img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-}
-.funcao {
-    text-align: center;
-    padding: 10px 5px 10px 5px;
-}
-h2.h2esp {
-    font-size: 40px;
-}
-.funcao p {
-    color: black;
-    font-size: medium;
 }
