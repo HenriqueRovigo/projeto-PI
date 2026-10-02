@@ -17,7 +17,12 @@ function validarResposta(elemento, pergunta) {
         mostrarResultado()
     }
 }
+//dicas
 
+function Dicabtn() {
+    document.getElementById("Dica").style.display = "block"
+
+}
 
 //processamento e saída
 function mostrarResultado() {
