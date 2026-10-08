@@ -239,3 +239,223 @@ footer p{
     
 }
 }
+
+
+/* =========================================================
+   PADRÃO MOBILE — DAVI + TÓPICOS DA ANA
+   Mantém o visual do computador e padroniza somente o celular.
+   ========================================================= */
+@media only screen and (max-width: 599px) {
+    html {
+        font-size: 16px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        overflow-x: hidden;
+    }
+
+    /* Cabeçalho igual nas duas páginas */
+    header {
+        width: 100%;
+        display: block;
+        padding: 8px 10px 12px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    header .topo {
+        width: 100%;
+    }
+
+    header img {
+        display: inline-block;
+        width: 72px;
+        height: auto;
+        padding: 6px 0 4px;
+    }
+
+    header ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    header ul li {
+        padding: 6px 9px;
+        margin: 0;
+        white-space: nowrap;
+    }
+
+    /* Conteúdo principal sem ultrapassar a tela */
+    main {
+        display: block;
+        width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Barra de tópicos: exatamente o mesmo tamanho e posição */
+    section.topicos {
+        display: block;
+        width: calc(100% - 20px);
+        margin: 10px auto;
+        padding: 14px;
+        box-sizing: border-box;
+        border-radius: 28px;
+    }
+
+    section.topicos nav,
+    section.topicos nav ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    section.topicos ul {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+        width: 100%;
+    }
+
+    section.topicos ul li {
+        display: block;
+        width: 100%;
+        min-width: 0;
+        min-height: 40px;
+        margin: 0;
+        padding: 9px 12px;
+        box-sizing: border-box;
+        background-color: #fff;
+        border-radius: 20px;
+        font-size: 14px;
+        line-height: 1.25;
+        text-align: center;
+        color: rgb(146, 53, 10);
+    }
+
+    section.topicos ul li a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-width: 0;
+        min-height: 22px;
+        text-align: center;
+    }
+
+    /* Os ícones ficam SOMENTE no computador */
+    section.topicos ul li a img {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    /* Página de conteúdo */
+    section.primeiro {
+        width: calc(100% - 20px);
+        max-width: none;
+        margin: 10px auto;
+        padding: 10px 14px 16px;
+        box-sizing: border-box;
+        border-radius: 28px;
+        min-width: 0;
+        overflow: hidden;
+        overflow-wrap: anywhere;
+        word-wrap: break-word;
+    }
+
+    section.primeiro img,
+    section.primeiro video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Compatibilidade com a página inicial da Davi */
+    .intro-conteudo {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .intro-texto,
+    .intro-imagem {
+        min-width: 0;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .intro-texto .etiqueta {
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow-wrap: anywhere;
+    }
+
+    /* Rodapé igual nas duas */
+    footer {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 16px 10px 30px;
+        text-align: center;
+    }
+
+    footer a img {
+        width: 42px;
+        height: auto;
+    }
+
+    footer p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    header img {
+        width: 68px;
+    }
+
+    header ul {
+        font-size: 13px;
+    }
+
+    header ul li {
+        padding: 6px 7px;
+    }
+
+    section.topicos {
+        width: calc(100% - 16px);
+        margin: 8px auto;
+        padding: 12px;
+    }
+
+    section.topicos ul li {
+        font-size: 13px;
+        min-height: 38px;
+        padding: 8px 10px;
+    }
+
+    section.primeiro {
+        width: calc(100% - 16px);
+        margin: 8px auto;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}

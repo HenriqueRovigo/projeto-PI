@@ -324,25 +324,30 @@ section.primeiro .intro-texto p {
 
 
 /* =========================================================
-   AJUSTE EXCLUSIVO PARA CELULAR - PÁGINA DAVI
-   O visual original do desktop permanece igual.
+   PADRÃO MOBILE — DAVI + TÓPICOS DA ANA
+   Mantém o visual do computador e padroniza somente o celular.
    ========================================================= */
 @media only screen and (max-width: 599px) {
-
     html {
         font-size: 16px;
+        width: 100%;
         overflow-x: hidden;
     }
 
     body {
         width: 100%;
         max-width: 100%;
+        min-width: 0;
         overflow-x: hidden;
     }
 
+    /* Cabeçalho igual nas duas páginas */
     header {
         width: 100%;
+        display: block;
         padding: 8px 10px 12px;
+        text-align: center;
+        box-sizing: border-box;
     }
 
     header .topo {
@@ -350,8 +355,10 @@ section.primeiro .intro-texto p {
     }
 
     header img {
+        display: inline-block;
         width: 72px;
-        max-width: 100%;
+        height: auto;
+        padding: 6px 0 4px;
     }
 
     header ul {
@@ -359,236 +366,178 @@ section.primeiro .intro-texto p {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap: 4px 2px;
         width: 100%;
-        font-size: 0.72rem;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 14px;
         line-height: 1.2;
     }
 
     header ul li {
-        padding: 7px 8px;
+        padding: 6px 9px;
+        margin: 0;
         white-space: nowrap;
     }
 
+    /* Conteúdo principal sem ultrapassar a tela */
     main {
         display: block;
         width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
     }
 
-    section {
-        max-width: calc(100% - 20px);
-        margin: 10px;
+    /* Barra de tópicos: exatamente o mesmo tamanho e posição */
+    section.topicos {
+        display: block;
+        width: calc(100% - 20px);
+        margin: 10px auto;
+        padding: 14px;
+        box-sizing: border-box;
         border-radius: 28px;
     }
 
-    section.topicos {
-        width: auto;
-        padding: 14px;
-        margin-bottom: 10px;
+    section.topicos nav,
+    section.topicos nav ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     section.topicos ul {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
         gap: 8px;
+        width: 100%;
     }
 
     section.topicos ul li {
+        display: block;
+        width: 100%;
         min-width: 0;
-        padding: 12px 8px;
+        min-height: 40px;
         margin: 0;
-        border-radius: 18px;
-        font-size: 0.78rem;
+        padding: 9px 12px;
+        box-sizing: border-box;
+        background-color: #fff;
+        border-radius: 20px;
+        font-size: 14px;
+        line-height: 1.25;
         text-align: center;
-        overflow-wrap: anywhere;
+        color: rgb(146, 53, 10);
     }
 
     section.topicos ul li a {
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 5px;
+        width: 100%;
         min-width: 0;
+        min-height: 22px;
+        text-align: center;
     }
 
+    /* Os ícones ficam SOMENTE no computador */
     section.topicos ul li a img {
-        display: block;
-        width: 42px;
-        height: 42px;
-        object-fit: contain;
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
+    /* Página de conteúdo */
     section.primeiro {
-        width: auto;
-        padding: 0;
-        word-wrap: break-word;
+        width: calc(100% - 20px);
+        max-width: none;
+        margin: 10px auto;
+        padding: 10px 14px 16px;
+        box-sizing: border-box;
+        border-radius: 28px;
+        min-width: 0;
+        overflow: hidden;
         overflow-wrap: anywhere;
+        word-wrap: break-word;
     }
 
+    section.primeiro img,
+    section.primeiro video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Compatibilidade com a página inicial da Davi */
     .intro-conteudo {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 16px;
-        padding: 18px 14px 8px;
-    }
-
-    .intro-texto {
         width: 100%;
         min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .intro-texto,
+    .intro-imagem {
+        min-width: 0;
+        max-width: 100%;
+        box-sizing: border-box;
     }
 
     .intro-texto .etiqueta {
-        display: block;
-        width: 100%;
         max-width: 100%;
-        padding: 10px 12px;
-        margin-bottom: 14px;
-        border-radius: 20px;
-        font-size: 0.62rem;
-        line-height: 1.35;
-        letter-spacing: 0.02em;
-        overflow-wrap: anywhere;
-        word-break: normal;
-    }
-
-    section.primeiro .intro-texto h1 {
-        padding: 0;
-        margin: 0 0 12px;
-        font-size: clamp(1.65rem, 8vw, 2.1rem);
-        line-height: 1.08;
+        box-sizing: border-box;
         overflow-wrap: anywhere;
     }
 
-    section.primeiro .intro-texto h2 {
-        margin: 0 0 12px;
-        font-size: 1rem;
-    }
-
-    section.primeiro .intro-texto p {
-        padding: 0;
-        margin: 0 0 15px;
-        font-size: 0.95rem;
-        line-height: 1.55;
-        overflow-wrap: anywhere;
-    }
-
-    .intro-imagem {
-        width: 100%;
-        min-width: 0;
-        padding: 10px;
-        border-radius: 22px;
-    }
-
-    .intro-imagem img {
-        width: 100%;
-        height: auto;
-        max-height: none;
-        object-fit: contain;
-        border-radius: 15px;
-    }
-
-    .legenda-imagem {
-        padding: 10px 4px 2px;
-    }
-
-    .legenda-imagem strong {
-        font-size: 0.95rem;
-    }
-
-    .legenda-imagem span {
-        font-size: 0.78rem;
-        line-height: 1.4;
-    }
-
-    .destaques {
-        grid-template-columns: 1fr;
-        gap: 10px;
-        width: 100%;
-        padding: 8px 14px 14px;
-    }
-
-    .card-destaque {
-        width: 100%;
-        padding: 14px;
-        border-radius: 16px;
-    }
-
-    .card-destaque h3 {
-        font-size: 1rem;
-        margin-bottom: 6px;
-    }
-
-    .card-destaque p {
-        font-size: 0.82rem;
-        line-height: 1.45;
-    }
-
-    .fechamento {
-        width: auto;
-        margin: 0 14px 16px;
-        padding: 16px;
-        border-radius: 18px;
-    }
-
-    .fechamento h2 {
-        font-size: 1.05rem;
-        line-height: 1.25;
-    }
-
-    .fechamento p {
-        font-size: 0.85rem;
-        line-height: 1.5;
-    }
-
+    /* Rodapé igual nas duas */
     footer {
         width: 100%;
+        box-sizing: border-box;
         padding: 16px 10px 30px;
+        text-align: center;
     }
 
     footer a img {
         width: 42px;
+        height: auto;
     }
 
     footer p {
-        font-size: 0.82rem;
+        font-size: 13px;
         line-height: 1.4;
     }
 }
 
 @media only screen and (max-width: 380px) {
+    header img {
+        width: 68px;
+    }
 
     header ul {
-        font-size: 0.66rem;
+        font-size: 13px;
     }
 
     header ul li {
-        padding: 6px 5px;
+        padding: 6px 7px;
     }
 
-    section.topicos ul {
-        gap: 6px;
+    section.topicos {
+        width: calc(100% - 16px);
+        margin: 8px auto;
+        padding: 12px;
     }
 
     section.topicos ul li {
-        font-size: 0.72rem;
+        font-size: 13px;
+        min-height: 38px;
+        padding: 8px 10px;
     }
 
-    .intro-conteudo {
+    section.primeiro {
+        width: calc(100% - 16px);
+        margin: 8px auto;
         padding-left: 12px;
         padding-right: 12px;
-    }
-
-    .intro-texto .etiqueta {
-        font-size: 0.58rem;
-    }
-
-    section.primeiro .intro-texto h1 {
-        font-size: 1.55rem;
-    }
-
-    section.primeiro .intro-texto p {
-        font-size: 0.9rem;
     }
 }
