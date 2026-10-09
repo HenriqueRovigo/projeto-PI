@@ -28,7 +28,6 @@ main nav.coisas{
     display: flex;
 }
 section{
-
     background-color: rgb(255, 255, 255);
     border-radius: 47px;
     margin: 2vw;
@@ -53,21 +52,28 @@ h2 {
     color: rgb(146, 53, 10);
 }
 
-section.topicos ul li a img {
-    width: 60vw;
+.primeiro {
+    text-align: center;
 }
 
 section.primeiro h1{
-    padding: 2vw 5vw 7vw 2vw;
-    font-size: larger;
+    padding: 2vw 5px 1vw 5px;
+    font-size: 1rem;
     font-weight: bolder;
     font-style: oblique;
 }
+
+.primeiro h2 {
+    padding: 0.5vw 0 1vw 2vw;
+    font-size: 0.9rem;
+}
+
 section.primeiro{
 padding: 10px 20px 10px 20px;
 }
 section.primeiro p{
-    padding: 3vw 0 3px 0;
+    padding: 1vw 0 1vw 2vw;
+    font-size: 0.7rem;
 }
 section.primeiro ul {
     display: flex;
@@ -179,17 +185,27 @@ section.topicos ul li a img {
     width: 60vw;
 }
 
+.primeiro {
+    text-align: center;
+}
+
 section.primeiro h1{
-    padding: 2vw 5vw 7vw 2vw;
-    font-size: larger;
+    padding: 2vw 0 1vw 0;
+    font-size: 1.3rem;
     font-weight: bolder;
     font-style: oblique;
 }
+
+.primeiro h2 {
+    padding: 0.5vw 0 1vw 2vw;
+}
+
 section.primeiro{
 padding: 10px 20px 10px 20px;
 }
 section.primeiro p{
-    padding: 3vw 0 3px 0;
+    padding: 1vw 0 1vw 2vw;
+    font-size: 0.8rem;
 }
 section.primeiro ul {
     display: flex;
