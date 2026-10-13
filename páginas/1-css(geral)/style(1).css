@@ -55,8 +55,6 @@ section.topicos {
     padding: 3.6vw;
 }
 section.topicos ul li{
-    padding: 2.7vw;
-    margin: 2.7vw;
     background-color: rgb(255, 255, 255);
     border-radius: 5vw;
     font-size: small;
@@ -137,8 +135,8 @@ section.topicos {
     background-color: #eb922c;
 }
 section.topicos ul li{
-    padding: 2.7vw;
-    margin: 2.7vw;
+    padding: 2vw 0vw 2vw 2vw;
+    margin: 2vw;
     background-color: white;
     border-radius: 3vw;
     font-size: small;
