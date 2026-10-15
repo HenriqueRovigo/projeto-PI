@@ -1,7 +1,8 @@
 html {
     font-size: clamp(1rem, calc(1.2rem + 2vw), 1.625rem);
     background-color: #ebd77e;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
 }
 
 header {
@@ -211,7 +212,6 @@ footer p {
     }
 }
 
-/* Estilo da página inicial - Wiki Maia */
 .intro-conteudo {
     display: grid;
     grid-template-columns: minmax(0, 1.7fr) minmax(220px, 0.8fr);
@@ -354,11 +354,6 @@ section.primeiro .intro-texto p {
     }
 }
 
-
-/* =========================================================
-   PADRÃO MOBILE — DAVI + TÓPICOS DA ANA
-   Mantém o visual do computador e padroniza somente o celular.
-   ========================================================= */
 @media only screen and (max-width: 599px) {
     html {
         font-size: 16px;
@@ -373,7 +368,6 @@ section.primeiro .intro-texto p {
         overflow-x: hidden;
     }
 
-    /* Cabeçalho igual nas duas páginas */
     header {
         width: 100%;
         display: block;
@@ -413,7 +407,6 @@ section.primeiro .intro-texto p {
         white-space: nowrap;
     }
 
-    /* Conteúdo principal sem ultrapassar a tela */
     main {
         display: block;
         width: 100%;
@@ -422,7 +415,6 @@ section.primeiro .intro-texto p {
         padding: 0;
     }
 
-    /* Barra de tópicos: exatamente o mesmo tamanho e posição */
     section.topicos {
         display: block;
         width: calc(100% - 20px);
@@ -473,7 +465,6 @@ section.primeiro .intro-texto p {
         text-align: center;
     }
 
-    /* Os ícones ficam SOMENTE no computador */
     section.topicos ul li a img {
         display: none !important;
         width: 0 !important;
@@ -482,7 +473,6 @@ section.primeiro .intro-texto p {
         margin: 0 !important;
     }
 
-    /* Página de conteúdo */
     section.primeiro {
         width: calc(100% - 20px);
         max-width: none;
@@ -502,7 +492,6 @@ section.primeiro .intro-texto p {
         height: auto;
     }
 
-    /* Compatibilidade com a página inicial da Davi */
     .intro-conteudo {
         width: 100%;
         min-width: 0;
@@ -522,7 +511,6 @@ section.primeiro .intro-texto p {
         overflow-wrap: anywhere;
     }
 
-    /* Rodapé igual nas duas */
     footer {
         width: 100%;
         box-sizing: border-box;
