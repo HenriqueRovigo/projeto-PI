@@ -28,6 +28,7 @@ main nav.coisas{
     display: flex;
 }
 section{
+
     background-color: rgb(255, 255, 255);
     border-radius: 47px;
     margin: 2vw;
@@ -52,28 +53,21 @@ h2 {
     color: rgb(146, 53, 10);
 }
 
-.primeiro {
-    text-align: center;
+section.topicos ul li a img {
+    width: 60vw;
 }
 
 section.primeiro h1{
-    padding: 2vw 5px 1vw 5px;
-    font-size: 1rem;
+    padding: 2vw 5vw 7vw 2vw;
+    font-size: larger;
     font-weight: bolder;
     font-style: oblique;
 }
-
-.primeiro h2 {
-    padding: 0.5vw 0 1vw 2vw;
-    font-size: 0.9rem;
-}
-
 section.primeiro{
 padding: 10px 20px 10px 20px;
 }
 section.primeiro p{
-    padding: 1vw 0 1vw 2vw;
-    font-size: 0.7rem;
+    padding: 3vw 0 3px 0;
 }
 section.primeiro ul {
     display: flex;
@@ -91,10 +85,16 @@ footer p{
     font-size: small;
     
 }
-section.nos {
+div.nos {
     padding: 5vw
 }
-section.nos ul{
+div.nos {
+    background-color: white;
+    border-radius: 3vw;
+    margin: 2vw;
+    text-align: center;
+}
+div.nos ul{
     display: block;
     justify-content: flex-start;
     font-family: Oswald;
@@ -185,27 +185,17 @@ section.topicos ul li a img {
     width: 60vw;
 }
 
-.primeiro {
-    text-align: center;
-}
-
 section.primeiro h1{
-    padding: 2vw 0 1vw 0;
-    font-size: 1.3rem;
+    padding: 2vw 5vw 7vw 2vw;
+    font-size: larger;
     font-weight: bolder;
     font-style: oblique;
 }
-
-.primeiro h2 {
-    padding: 0.5vw 0 1vw 2vw;
-}
-
 section.primeiro{
 padding: 10px 20px 10px 20px;
 }
 section.primeiro p{
-    padding: 1vw 0 1vw 2vw;
-    font-size: 0.8rem;
+    padding: 3vw 0 3px 0;
 }
 section.primeiro ul {
     display: flex;
@@ -223,12 +213,14 @@ footer p{
     font-size: small;
     
 }
-section.nos {
+div.nos {
     padding: 5vw
 }
 .nos {
     display: flex;
     text-align: center;
+    gap: 25vw;
+    flex-wrap: wrap;
 }
 .nos img {
     width: 200px;
@@ -237,15 +229,16 @@ section.nos {
     border-radius: 20px;
 }
 
-.funcao {
+div.funcao {
     text-align: center;
     padding: 10px 5px 10px 5px;
 }
 h2.h2esp {
-    font-size: 40px;
+    font-size: medium;
 }
 .funcao p {
     color: black;
-    font-size: medium;
+    font-size: 2vw;
+    width: 25vw;
 }
 }
