@@ -12,18 +12,26 @@ header {
     margin: 0 auto;
 }
 header ul {
-    font-size: 0.67rem;
-    text-align: center;
-    color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 0.67rem;
+  text-align: center;
+  color: white;
 }
 
 header ul li:hover {
-    color: rgb(146, 53, 10);
+  color: rgb(146, 53, 10);
 }
 
 header ul li {
-    padding: 1vw 2vw 1vw 2vw
+  padding: 1vw 2vw 1vw 2vw;
 }
+
+header img {
+  padding: 6px 0 6px 0;
+  width: 4rem;
+  height: auto;
+}
+
 main nav.coisas{
     display: flex;
 }
@@ -156,7 +164,6 @@ main nav.coisas{
     display: flex;
 }
 section{
-
     background-color: rgb(255, 255, 255);
     border-radius: 47px;
     margin: 2vw;
@@ -185,18 +192,30 @@ section.topicos ul li a img {
     width: 60vw;
 }
 
+section.primeiro {
+    text-align: center;
+}
+
 section.primeiro h1{
-    padding: 2vw 5vw 7vw 2vw;
+    padding: 2vw 5vw 0 2vw;
     font-size: larger;
     font-weight: bolder;
     font-style: oblique;
 }
+
+section.primeiro p {
+    padding: 0 5vw 2vw 2vw;
+    font-size: 0.9rem;
+}
+
+section.primeiro h2 {
+    padding: 2vw 5vw 2vw 2vw;
+}
+
 section.primeiro{
 padding: 10px 20px 10px 20px;
 }
-section.primeiro p{
-    padding: 3vw 0 3px 0;
-}
+
 section.primeiro ul {
     display: flex;
 }

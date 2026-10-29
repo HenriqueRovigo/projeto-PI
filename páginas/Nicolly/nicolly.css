@@ -63,3 +63,9 @@ section {
  button:hover {
   background: #6b3410;
 }
+
+@media only screen and (max-width: 600px) {
+  .primeiro {
+    margin: 10px;
+  }
+}
