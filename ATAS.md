@@ -10,8 +10,6 @@
 **Orientador:** Kennedy Ferreira Araújo         
 **Ano:** 2026
 
-https://github.com/davilucasm-ifc/urna/blob/main/atas.md
-
 ## Sobre os registros
 
 Este documento reúne os resumos das reuniões realizadas pelo grupo durante o desenvolvimento do Projeto Integrador I, registrando as principais decisões, atividades e encaminhamentos para a participação na SEPE 2026.
@@ -343,6 +341,24 @@ Nenhum.
 **Encaminhamentos:**
 - Ana e Nicolly realizaram ajustes na fonte do site e enviaram as alterações ao repositório do GitHub por meio de commits.
 - Davi continuou a inclusão das atas no GitHub, organizando o conteúdo na parte do README.md.
+
+---
+
+## ATA 18 - 05/11/2026
+
+**Assunto:** Continuidade dos ajustes na página “Sobre nós” e organização dos registros do projeto no GitHub.
+
+**Ausentes:**
+- Emanuel (justificativa: não informada).
+
+**Decisões:**
+- O grupo deu continuidade aos ajustes finais do site, concentrando os esforços na página “Sobre nós”.
+- Foi mantida a organização dos registros das reuniões no GitHub.
+
+**Encaminhamentos:**
+- Ana e Nicolly deram continuidade aos ajustes na página “Sobre nós”, revisando o texto de apresentação e outros detalhes do conteúdo.
+- Davi continuou a organização das atas, concluindo sua inclusão no GitHub.
+- Henrique realizou ajustes no CSS da página “Sobre nós”, trabalhando no alinhamento dos elementos e em melhorias na apresentação visual.
 
 ---
 
