@@ -110,7 +110,7 @@ header img {
 
 header ul {
     display: flex;
-    font-size: 0.67rem;
+    font-size: 0.8rem;
     text-align: end;
     color: rgb(255, 255, 255);
 }
@@ -160,7 +160,7 @@ section.primeiro p{
 }
 footer{
     background-color: #eb922c;
-    padding: 10px 0 10vw 0;
+    padding: 10px 0 20px 0;
     text-align: center;
 }
 footer a img{

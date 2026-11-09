@@ -5,20 +5,8 @@ html {
   "Lucida Sans", Arial, sans-serif;
 }
 
-/*
-Fontes Disponíveis:
-// Sugiro usar esta 
- 
-
-font-family: "Epilogue", sans-serif;
-font-family: "Nunito", sans-serif;
-
-*/
-
-
 
 header {
-  display: block;
   gap: 20px;
   background-color: #eb922c;
   text-align: center;
@@ -65,15 +53,13 @@ section {
 }
 section.topicos {
   background-color: #eb922c;
-  padding: 3.6vw;
+  padding: 3vw;
   margin: 5vw;
 }
 section.topicos ul li {
   margin: 10px;
   padding: 3.5vw;
   background-color: rgb(255, 255, 255);
-  font-size: small;
-  font-weight: lighter;
   font-size: small;
   color: rgb(146, 53, 10);
   text-align: center;
@@ -133,21 +119,6 @@ section.primeiro ul li p {
   padding: 0 5px;
 }
 
-footer {
-  background-color: #eb922c;
-  padding: 10px 0 10vw 0;
-  text-align: center;
-}
-footer a img {
-  width: 1rem;
-  height: auto;
-}
-footer p {
-  font-weight: lighter;
-  font-size: small;
-  color: #92350a;
-}
-
 @media only screen and (min-width: 600px) {
   header {
     display: flex;
@@ -164,7 +135,7 @@ footer p {
 
   header ul {
     display: flex;
-    font-size: 0.67rem;
+    font-size: 0.80rem;
     text-align: end;
     color: rgb(255, 255, 255);
   }
@@ -196,6 +167,7 @@ footer p {
   section.topicos {
     background-color: #eb922c;
     margin: 2vw;
+    padding: 30px;
   }
 
   section.topicos ul li {
@@ -256,17 +228,4 @@ footer p {
     padding: 0 1vw;
   }
 
-  footer {
-    background-color: #eb922c;
-    padding: 10px 0 10vw 0;
-    text-align: center;
-  }
-  footer a img {
-    width: 1rem;
-    height: auto;
-  }
-  footer p {
-    font-weight: lighter;
-    font-size: small;
-  }
 }

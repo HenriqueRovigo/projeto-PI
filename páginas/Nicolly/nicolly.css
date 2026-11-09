@@ -18,6 +18,10 @@ section {
   margin-bottom: 25px;
 }
 
+footer p{
+  margin-bottom: 0;
+}
+
 .campo {
   display: flex;
   flex-direction: column;

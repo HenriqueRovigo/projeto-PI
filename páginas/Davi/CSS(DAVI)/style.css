@@ -132,7 +132,7 @@ section.primeiro ul li p {
 
 footer {
   background-color: #eb922c;
-  padding: 10px 0 10vw 0;
+  padding: 10px 0 20px 0;
   text-align: center;
 }
 
@@ -163,7 +163,7 @@ footer p {
 
   header ul {
     display: flex;
-    font-size: 0.67rem;
+    font-size: 0.8rem;
     text-align: end;
     color: rgb(255, 255, 255);
   }
@@ -196,6 +196,7 @@ footer p {
   section.topicos {
     background-color: #eb922c;
     margin: 2vw;
+    padding: 30px;
   }
   section.topicos ul li {
     padding: 0;
@@ -219,8 +220,6 @@ footer p {
       border-radius: 20px;
       padding: 24px;
   }
-
-
 
   section.primeiro h1 {
     padding: 3vw 1vw 3vw 1vw;
@@ -256,7 +255,7 @@ footer p {
 
   footer {
     background-color: #eb922c;
-    padding: 10px 0 10vw 0;
+    padding: 10px 0 20px 0;
     text-align: center;
   }
 
