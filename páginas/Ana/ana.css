@@ -53,7 +53,7 @@ section {
 }
 section.topicos {
   background-color: #eb922c;
-  padding: 3vw;
+  padding: 3.6vw;
   margin: 5vw;
 }
 section.topicos ul li {
@@ -61,8 +61,11 @@ section.topicos ul li {
   padding: 3.5vw;
   background-color: rgb(255, 255, 255);
   font-size: small;
+  font-weight: lighter;
+  font-size: small;
   color: rgb(146, 53, 10);
   text-align: center;
+  border-radius: 5vw;
 }
 
 section.topicos ul li a img {
@@ -206,7 +209,15 @@ section.primeiro ul li p {
 
   section.primeiro p {
     font-size: 0.9rem;
-    padding: 4px 4px 2vw 1vw;
+    padding: 4px 4px 30px 1vw;
+  }
+
+  section.primeiro ul {
+    padding: 0 0 2vw 0;
+  }
+
+  section.primeiro ul li p {
+    padding: 10px 0 10px 1vw;
   }
 
   .primeiro p.fonte {
@@ -226,6 +237,10 @@ section.primeiro ul li p {
 
   .primeiro img {
     padding: 0 1vw;
+  }
+
+  .primeiro img.numerico {
+    padding: 0 10px;
   }
 
 }
