@@ -102,6 +102,9 @@ section#resultadoFinal h1 {
   font-weight: bolder;
   margin: 3vw;
 }
+footer{
+  padding: 20px 0 10vw 0;
+}
 h2{
   font-size: 1.7rem;
 }
