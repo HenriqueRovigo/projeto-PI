@@ -90,7 +90,8 @@ section.agente{
     background: none;
 }
 .agente p {
-    color: black;
+    color: #b95919;
+    font-size: 0.9rem;
 }
 section.agente ul {
     text-align: center;
@@ -222,7 +223,7 @@ section.agente{
     background: none;
 }
 .agente p {
-    color: black;
+    color: #b95919;
 }
 section.agente ul {
     display: flex;
