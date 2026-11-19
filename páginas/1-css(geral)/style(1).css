@@ -28,7 +28,8 @@ header img {
 }
 
 header ul {
-    text-align: center;
+    align-items: center;
+    padding: 3vw 0 0 0;
     font-size: 0.67rem;
     text-align: center;
     color: white;
@@ -61,6 +62,10 @@ section.topicos ul li{
     font-weight: lighter;
     font-size: small;
     color: rgb(146, 53, 10);
+}
+section.topicos ul li a:hover{
+    background-color: rgb(151, 129, 129);
+    color: rgb(77, 50, 15);
 }
 
 section.primeiro h1{
