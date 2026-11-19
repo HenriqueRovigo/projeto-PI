@@ -8,8 +8,10 @@ function validarResposta(elemento, pergunta) {
     console.log(elemento)
     pergunta = parseInt(pergunta);
     if (pergunta < 5) {
+
         document.getElementById("perg" + pergunta).style.display = "none"
         document.getElementById("perg" + (pergunta + 1)).style.display = "block"
+
     }
     if (pergunta == 5) {
         mostrarResultado()
@@ -28,33 +30,38 @@ function mostrarResultado() {
     console.log(respostas)
     let certas = 0;
     let erradas = 0;
-    for (let i = 0; i < 5; i++) {
+    let i = 0;
+    do {
         if (respostas[i].value == 1) {
             certas++;
         } else {
             erradas++;
         }
-    }
+        i++
+    } while (i < 5)
     console.log(certas, erradas);
 
     document.querySelector(".primeiro").style.display = "none"
     let sectionResultado = document.querySelector("#resultadoFinal");
     sectionResultado.style.display = "block"
 
-    const titulos = [
-        "Você leu as perguntas?",
-        "Estude mais nos tempos livres.",
-        "Vai ter que melhorar um pouco.",
-        "Dá para passar no trimestre.",
-        "Parabéns!",
-        "Absolutamente uma mente absoluta!!!"
-    ];
-
-    const porcentagem = (certas / 5) * 100;
-
-    sectionResultado.querySelector("h1").textContent =
-        titulos[certas] || titulos[0];
-    sectionResultado.querySelector("p").textContent =
-        `Você acertou ${porcentagem}% das perguntas!`;
-
+    if (certas == 5) {
+        sectionResultado.querySelector("h1").textContent = "Absolutamente uma mente absoluta!!!"
+        sectionResultado.querySelector("p").textContent = "Você acertou 100% das perguntas!!!"
+    } else if (certas == 4) {
+        sectionResultado.querySelector("h1").textContent = "Parabéns!"
+        sectionResultado.querySelector("p").textContent = "Você acertou 80% das perguntas!!"
+    } else if (certas == 3) {
+        sectionResultado.querySelector("h1").textContent = "Dá para passar no trimestre."
+        sectionResultado.querySelector("p").textContent = "Você acertou 60% das perguntas!"
+    } else if (certas == 2) {
+        sectionResultado.querySelector("h1").textContent = "Vai ter que melhorar um pouco."
+        sectionResultado.querySelector("p").textContent = "Você acertou 40% das perguntas."
+    } else if (certas == 1) {
+        sectionResultado.querySelector("h1").textContent = "Estude mais nos tempos livres."
+        sectionResultado.querySelector("p").textContent = "Você acertou 40% das perguntas."
+    } else {
+        sectionResultado.querySelector("h1").textContent = "Você leu as perguntas?"
+        sectionResultado.querySelector("p").textContent = "Você acertou 0% das perguntas. O que aconteceu?"
+    }
 }

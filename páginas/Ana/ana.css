@@ -1,246 +1,190 @@
 html {
-  font-size: clamp(1rem, calc(1.2rem + 2vw), 1.625rem);
-  background-color: #ebd77e;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-  "Lucida Sans", Arial, sans-serif;
+    font-size: clamp(1rem, calc(1.2rem + 2vw), 1.625rem);
+    background-color: #ebd77e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-
 header {
-  gap: 20px;
-  background-color: #eb922c;
-  text-align: center;
+    display: block;
+    gap: 20px;
+    background-color: #eb922c;
+    text-align: center;
 }
-p {
-  color: rgb(146, 53, 10);
+p{
+    color: rgb(146, 53, 10);
 }
-span {
-  color: rgb(214, 4, 46);
+span{
+    color: rgb(214, 4, 46);
 }
-h1 {
-  color: rgb(146, 53, 10);
+h1{
+    color: rgb(146, 53, 10);
 }
-h2 {
-  color: rgb(146, 53, 10);
+h2{
+    color: rgb(146, 53, 10);
 }
 header img {
-  padding: 6px 0 0 0;
-  width: 4rem;
-  height: auto;
+    padding: 6px 0 0 0;
+    width: 5rem;
+    height: auto;
 }
 
 header ul {
-  text-align: center;
-  font-size: 0.67rem;
-  text-align: center;
-  color: white;
+    text-align: center;
+    font-size: 0.67rem;
+    text-align: center;
+    color: white;
 }
 
 header ul li:hover {
-  color: rgb(146, 53, 10);
+    color: rgb(146, 53, 10);
 }
 
 header ul li {
-  padding: 1vw 2vw 1vw 2vw;
+    padding: 1vw 2vw 1vw 2vw
 }
-main {
-  align-items: flex-start;
+main{
+    align-items: flex-start;
 }
-section {
-  background-color: white;
-  border-radius: 47px;
-  margin: 2vw;
+section{
+
+    background-color: white;
+    border-radius: 47px;
+    margin: 2vw;
 }
 section.topicos {
-  background-color: #eb922c;
-  padding: 3.6vw;
-  margin: 5vw;
+    background-color: #eb922c;
+    padding: 3.6vw;
 }
-section.topicos ul li {
-  margin: 10px;
-  padding: 3.5vw;
-  background-color: rgb(255, 255, 255);
-  font-size: small;
-  font-weight: lighter;
-  font-size: small;
-  color: rgb(146, 53, 10);
-  text-align: center;
-  border-radius: 5vw;
+section.topicos ul li{
+    padding: 2.7vw;
+    margin: 2.7vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5vw;
+    font-size: small;
+    font-weight: lighter;
+    font-size: small;
+    color: rgb(146, 53, 10);
 }
 
 section.topicos ul li a img {
-  display: none;
+    display: none;
 }
 
-section.primeiro h1 {
-  padding: 5vw 3vw 5vw 1vw;
-  font-size: larger;
-  font-weight: bolder;
-  font-style: oblique;
+section.primeiro h1{
+    padding: 5vw 3vw 5vw 3vw;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: oblique;
+}
+section.primeiro{
+padding: 10px 20px 10px 20px;
+word-wrap: break-word
+}
+section.primeiro p{
+    font-size: 0.75rem;
+    padding: 4vw 2vw 5px 2vw;
 }
 
-section.primeiro {
-  padding: 10px 20px 10px 20px;
-  word-wrap: break-word;
+footer{
+    background-color: #eb922c;
+    padding: 10px 0 10vw 0;
+    text-align: center;
+}
+footer a img{
+    width: 1rem;
+    height: auto;
+}
+footer p{
+    font-weight: lighter;
+    font-size: small;
+    color: rgb(146, 53, 10);
 }
 
-section.primeiro p {
-  font-size: 0.75rem;
-  padding: 1vw 0 1vw 1vw;
-}
 
-section.primeiro ul {
-  padding: 0 0 3vw 0;
-}
-
-section.primeiro ul li p {
-  padding: 1vw 0 1vw 1vw;
-}
-
-.primeiro img {
-  padding: 10px 5px 10px 5px;
-}
-
-.primeiro img.numerico {
-  width: 23rem;
-  padding: 0;
-}
-
-.primeiro p.fonte {
-  color: #995f45;
-  font-size: 0.4rem;
-  padding: 0;
-  padding: 0 5px;
-}
-
-.primeiro p.fonte-link {
-  color: #995f45;
-  font-size: 0.55rem;
-  padding: 0;
-  font-weight: bold;
-  text-decoration: underline;
-  padding: 0 5px;
-}
 
 @media only screen and (min-width: 600px) {
-  header {
+
+header {
     display: flex;
     gap: 20px;
     background-color: #eb922c;
     justify-content: space-between;
-  }
+}
 
-  header img {
+header img {
     padding: 6px 0 0 0;
     width: 5rem;
     height: auto;
-  }
+}
 
-  header ul {
+header ul {
     display: flex;
-    font-size: 0.80rem;
+    font-size: 0.67rem;
     text-align: end;
     color: rgb(255, 255, 255);
-  }
+}
 
-  header ul li:hover {
+header ul li:hover {
     color: rgb(146, 53, 10);
-  }
+}
 
-  header ul li {
-    padding: 1vw 2vw 1vw 2vw;
-  }
-  main {
+header ul li {
+    padding: 1vw 2vw 1vw 2vw
+}
+main{
     display: flex;
-  }
-  section {
+}
+section{
     background-color: rgb(255, 255, 255);
     border-radius: 47px;
     margin: 2vw;
-  }
-
-  .topico {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  section.topicos {
+}
+section.topicos {
     background-color: #eb922c;
-    margin: 2vw;
-    padding: 30px;
-  }
-
-  section.topicos ul li {
-    padding: 0;
+}
+section.topicos ul li{
+    padding: 2.7vw;
+    margin: 2.7vw;
     background-color: white;
     border-radius: 3vw;
     font-size: small;
-    margin: 10px;
-    padding: 0vw;
-    align-items: center;
-  }
+}
 
-  section.topicos ul li a img {
+section.topicos ul li a img {
     width: 60px;
     display: block;
-  }
+}
 
-  section.topicos nav ul li a.topico {
-    display: flex;
-    flex-direction: column;
-    background-color: #ffffff;
-    border-radius: 20px;
-    padding: 24px;
-  }
-
-  section.primeiro h1 {
-    padding: 3vw 1vw 3vw 1vw;
+section.primeiro h1{
+    padding:  3vw 1vw 3vw 1vw;
     font-size: larger;
     font-weight: bolder;
     font-style: oblique;
-  }
+}
 
-  section.primeiro h2 {
+section.primeiro h2 {
     padding: 0 1vw 2vw 0;
-  }
+}
 
-  section.primeiro p {
+section.primeiro{
+padding: 10px 20px 10px 20px;
+}
+section.primeiro p{
     font-size: 0.9rem;
-    padding: 4px 4px 30px 1vw;
-  }
+    padding: 4px 4px 3.5vw 4px;
+}
 
-  section.primeiro ul {
-    padding: 0 0 2vw 0;
-  }
-
-  section.primeiro ul li p {
-    padding: 10px 0 10px 1vw;
-  }
-
-  .primeiro p.fonte {
-    color: #995f45;
-    font-size: 0.6rem;
-    padding: 0;
-    padding: 0 1vw;
-  }
-
-  .primeiro p.fonte-link {
-    color: #995f45;
-    font-size: 0.7rem;
-    padding: 0 1vw;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-
-  .primeiro img {
-    padding: 0 1vw;
-  }
-
-  .primeiro img.numerico {
-    padding: 0 10px;
-  }
-
+footer{
+    background-color: #eb922c;
+    padding: 10px 0 10vw 0;
+    text-align: center;
+}
+footer a img{
+    width: 1rem;
+    height: auto;
+}
+footer p{
+    font-weight: lighter;
+    font-size: small;
+    
+}
 }

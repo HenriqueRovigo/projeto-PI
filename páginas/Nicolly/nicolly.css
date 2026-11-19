@@ -18,10 +18,6 @@ section {
   margin-bottom: 25px;
 }
 
-footer p{
-  margin-bottom: 0;
-}
-
 .campo {
   display: flex;
   flex-direction: column;
@@ -66,10 +62,4 @@ footer p{
 }
  button:hover {
   background: #6b3410;
-}
-
-@media only screen and (max-width: 600px) {
-  .primeiro {
-    margin: 10px;
-  }
 }
