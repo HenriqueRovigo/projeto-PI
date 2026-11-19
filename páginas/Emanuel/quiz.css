@@ -1,54 +1,141 @@
-section {
-    text-align: center;
-    margin: 20px 20px 50px 20px;
+.topico {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
+section.topicos {
+  background-color: #eb922c;
+  margin: 2vw;
+  padding: 30px;
+}
+
+section.topicos ul li {
+  padding: 0;
+  background-color: white;
+  border-radius: 3vw;
+  font-size: small;
+  margin: 10px;
+  align-items: center;
+}
+
+section.topicos ul li a img {
+  width: 87px;
+  display: block;
+}
+
+section.topicos ul li a.topico {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 24px 30px;
+}
+
+section.primeiro {
+  text-align: center;
+  margin: 20px 0 50px 0;
+}
+
 section ol {
-    padding: 0 0 20px 0;
+  padding: 0 0 20px 0;
 }
 
 label {
-    display: inline-block;
-    border-color: rgb(146, 53, 10);
-    color: #eb922c;
-    border: solid;
-    padding: 10px;
-    width: 80%;
-    margin-top: 10px;
-    cursor: pointer;
-    border-radius: 4px;
+  display: inline-block;
+  border-color: rgb(146, 53, 10);
+  color: #eb922c;
+  border: solid;
+  padding: 10px;
+  width: 80%;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 label:hover {
-    background-color: #4eaf12;
-    border-color: #e4de1a;
-    color: #e4de1a;
+  background-color: #4eaf12;
+  border-color: #e4de1a;
+  color: #e4de1a;
 }
 
 label:focus {
-    background-color: #0e793c;
-    border-color: #3a610b;
-
+  background-color: #0e793c;
+  border-color: #3a610b;
 }
 
 #resposta {
-    border-color: rgb(146, 53, 10);
-    color: rgb(146, 53, 10);
-    border: solid;
-    margin: 67px 0 0 0;
+  border-color: rgb(146, 53, 10);
+  color: rgb(146, 53, 10);
+  border: solid;
+  margin: 67px 0 0 0;
 }
 
 ol>li {
-    display: none;
+  display: none;
 }
 
 ol>li:first-child {
-    display: block;
+  display: block;
 }
+
+section#resultadoFinal {
+  display: none;
+  width: 100%;
+  padding: 20vw 0 20vw 0;
+  text-align: center;
+}
+
+section.primeiro ol li div {
+  display: none;
+}
+
+section.primeiro {
+  width: 100%;
+  padding: 7vw 0 7vw 0;
+}
+
+section#resultadoFinal h1 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: 3vw;
+}
+footer{
+  padding: 20px 0 10vw 0;
+}
+h2{
+  font-size: 1.7rem;
+}
+section.primeiro h1,
 section#resultadoFinal{
-    display: none;
-    width: 100%;
-    padding: 20vw 0 20vw 0;
+  font-size: 2.3rem;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-section.primeiro ol li div{
+@media only screen and (max-width: 600px) {
+  section.topicos {
+    background-color: #eb922c;
+    padding: 3.6vw;
+    margin: 5vw;
+  }
+  section.topicos ul li a img{
     display: none;
+  }
+  section.topicos ul li {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    font-weight: lighter;
+    color: rgb(146, 53, 10);
+    border-radius: 5vw;
+    font-size: 1.3rem;
+  }
+
+  section.topicos ul li a.topico {
+    padding: 3.5vw;
+  }
+  h2{
+  font-size: 1rem;
+}
 }
