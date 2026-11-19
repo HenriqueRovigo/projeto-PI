@@ -187,4 +187,7 @@ footer a img{
 footer p a img {
     margin-top: 1.5vw;
 }
+footer p a:hover {
+    color: black;
+}
 }
