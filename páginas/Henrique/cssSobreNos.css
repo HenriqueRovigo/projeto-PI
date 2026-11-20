@@ -5,8 +5,9 @@ html {
 }
 
 header {
-    gap: 20px;
     background-color: #eb922c;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -24,9 +25,6 @@ header ul li:hover {
     color: rgb(146, 53, 10);
 }
 
-header ul li {
-    padding: 1vw 2vw 1vw 2vw
-}
 
 main nav.coisas {
     display: flex;
