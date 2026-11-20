@@ -1,4 +1,7 @@
-
+section.primeiro div.intro-conteudo h2{
+    font-size: 0.7rem;
+    padding: 20px;
+}
 /* Estilo da página inicial - Wiki Maia */
 .intro-conteudo {
     display: grid;
