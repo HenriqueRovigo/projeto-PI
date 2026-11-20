@@ -89,4 +89,14 @@ section#resultadoFinal {
   section{
     margin: 7px;
   }
+  /* deixa de 2 em 2 o header pra celular*/
+  header ul li ul{
+    display: flex;
+    gap: 20px;
+  }
+  header ul li ul li{
+    margin: 10px 40px 10px 40px ;
+    font-size: 0.8rem;
+  }
+  
 }

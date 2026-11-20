@@ -3,14 +3,17 @@ html {
     background-color: #ebd77e;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 header {
     gap: 20px;
     background-color: #eb922c;
 }
+
 .logo {
     display: block;
     margin: 0 auto;
 }
+
 header ul {
     font-size: 0.67rem;
     text-align: center;
@@ -24,31 +27,38 @@ header ul li:hover {
 header ul li {
     padding: 1vw 2vw 1vw 2vw
 }
-main nav.coisas{
+
+main nav.coisas {
     display: flex;
 }
-section{
+
+section {
 
     background-color: rgb(255, 255, 255);
     border-radius: 47px;
     margin: 2vw;
 }
+
 section.topicos {
     background-color: #eb922c;
 }
-section.topicos ul li{
+
+section.topicos ul li {
     padding: 2.7vw;
     margin: 2.7vw;
     background-color: white;
     border-radius: 3vw;
     font-size: small;
 }
+
 p {
     color: rgb(146, 53, 10);
 }
+
 h1 {
     color: rgb(146, 53, 10);
 }
+
 h2 {
     color: rgb(146, 53, 10);
 }
@@ -57,44 +67,54 @@ section.topicos ul li a img {
     width: 60vw;
 }
 
-section.primeiro h1{
+section.primeiro h1 {
     padding: 2vw 5vw 7vw 2vw;
     font-size: larger;
     font-weight: bolder;
     font-style: oblique;
 }
-section.primeiro{
-padding: 10px 20px 10px 20px;
+
+section.primeiro {
+    padding: 10px 20px 10px 20px;
 }
-section.primeiro p{
+
+section.primeiro p {
     padding: 3vw 0 3px 0;
 }
+
 section.primeiro ul {
     display: flex;
 }
-footer{
+
+footer {
     background-color: #eb922c;
     text-align: center;
     padding: 30px 0 30px 0;
 }
-footer a img{
+
+footer a img {
     width: 1rem;
     height: auto;
 }
-footer p{
+
+footer p {
     font-weight: lighter;
     font-size: small;
-    
+
 }
-section.agente{
+
+section.agente {
     background: none;
 }
+
 .agente p {
     color: black;
 }
+
 section.agente ul {
     text-align: center;
 }
+
 section.agente ul li {
     background-color: white;
     margin: 30px 0 20px 0;
@@ -103,163 +123,206 @@ section.agente ul li {
     border-radius: 10px;
 
 }
+
 section.agente img {
     border-radius: 10px;
     width: 200px;
     height: 200px;
     object-fit: cover;
 }
+
 section.agente p {
     margin-bottom: 15px;
 }
+
 section.agente h3 {
     margin-bottom: 15px;
     margin-top: 15px;
 }
+
 section.agente h4 {
     font-style: italic;
     margin-bottom: 15px;
 }
-@media only screen and (min-width: 600px) {
-html {
-    font-size: clamp(1rem, calc(1.2rem + 2vw), 1.625rem);
-    background-color: #ebd77e;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-header {
+
+/* deixa de 2 em 2 o header pra celular*/
+header ul li ul {
     display: flex;
     gap: 20px;
-    background-color: #eb922c;
-    justify-content: space-between;
 }
 
-header img {
-    width: 5rem;
-    height: auto;
+header ul li ul li {
+    margin: 10px 40px 10px 40px;
+    font-size: 0.8rem;
 }
 
-header ul {
-    display: flex;
-    font-size: 0.67rem;
-    text-align: end;
-    color: rgb(255, 255, 255);
-}
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: clamp(1rem, calc(1.2rem + 2vw), 1.625rem);
+        background-color: #ebd77e;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
 
-header ul li:hover {
-    color: rgb(146, 53, 10);
-}
+    header {
+        display: flex;
+        gap: 20px;
+        background-color: #eb922c;
+        justify-content: space-between;
+    }
 
-header ul li {
-    padding: 1vw 2vw 1vw 2vw
-}
-main nav.coisas{
-    display: flex;
-}
-section{
+    header img {
+        width: 5rem;
+        height: auto;
+    }
 
-    background-color: rgb(255, 255, 255);
-    border-radius: 47px;
-    margin: 2vw;
-}
-section.topicos {
-    background-color: #eb922c;
-}
-section.topicos ul li{
-    padding: 2.7vw;
-    margin: 2.7vw;
-    background-color: white;
-    border-radius: 3vw;
-    font-size: small;
-}
-p {
-    color: rgb(146, 53, 10);
-}
-h1 {
-    color: rgb(146, 53, 10);
-}
-h2 {
-    color: rgb(146, 53, 10);
-}
+    header ul {
+        display: flex;
+        font-size: 0.67rem;
+        text-align: end;
+        color: rgb(255, 255, 255);
+    }
 
-section.topicos ul li a img {
-    width: 60vw;
-}
-section.primeiro {
-    text-align: center;
-}
-section.primeiro h1{
-    padding: 2vw 2vw 2vw 2vw;
-    font-size: larger;
-    font-weight: bolder;
-    font-style: oblique;
-}
-section.primeiro{
-padding: 10px 20px 10px 20px;
-}
-section.primeiro h2 {
-    font-weight: bold;
-}
-section.primeiro p{
-    padding: 3vw 0 1.5vw 0;
-}
-section.primeiro ul {
-    display: flex;
-}
-footer{
-    background-color: #eb922c;
-    text-align: center;
-}
-footer a img{
-    width: 1rem;
-    height: auto;
-}
-footer p{
-    font-weight: lighter;
-    font-size: 0.9rem;
-    color: white;
-}
-section.agente{
-    background: none;
-}
-.agente p {
-    color: black;
-}
-section.agente ul {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 100%;
-    text-align: center;
-}
-section.agente ul li {
-    background-color: white;
-    margin: 0 10px 0 10px;
-    padding: 10px 10px 10px 10px;
-    flex: 1;
-    border-radius: 10px;
+    header ul li:hover {
+        color: rgb(146, 53, 10);
+    }
 
-}
-section.agente img {
-    border-radius: 10px;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-}
-section.agente p {
-    margin-bottom: 15px;
-}
-section.agente h3 {
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-section.agente h4 {
-    font-style: italic;
-    margin-bottom: 15px;
-}
-footer {
-    padding: 80px 0 80px 0;
-}
-footer p img {
-    width: 40px;
-}
+    header ul li {
+        padding: 1vw 2vw 1vw 2vw
+    }
+
+    main nav.coisas {
+        display: flex;
+    }
+
+    section {
+
+        background-color: rgb(255, 255, 255);
+        border-radius: 47px;
+        margin: 2vw;
+    }
+
+    section.topicos {
+        background-color: #eb922c;
+    }
+
+    section.topicos ul li {
+        padding: 2.7vw;
+        margin: 2.7vw;
+        background-color: white;
+        border-radius: 3vw;
+        font-size: small;
+    }
+
+    p {
+        color: rgb(146, 53, 10);
+    }
+
+    h1 {
+        color: rgb(146, 53, 10);
+    }
+
+    h2 {
+        color: rgb(146, 53, 10);
+    }
+
+    section.topicos ul li a img {
+        width: 60vw;
+    }
+
+    section.primeiro {
+        text-align: center;
+    }
+
+    section.primeiro h1 {
+        padding: 2vw 2vw 2vw 2vw;
+        font-size: larger;
+        font-weight: bolder;
+        font-style: oblique;
+    }
+
+    section.primeiro {
+        padding: 10px 20px 10px 20px;
+    }
+
+    section.primeiro h2 {
+        font-weight: bold;
+    }
+
+    section.primeiro p {
+        padding: 3vw 0 1.5vw 0;
+    }
+
+    section.primeiro ul {
+        display: flex;
+    }
+
+    footer {
+        background-color: #eb922c;
+        text-align: center;
+    }
+
+    footer a img {
+        width: 1rem;
+        height: auto;
+    }
+
+    footer p {
+        font-weight: lighter;
+        font-size: 0.9rem;
+        color: white;
+    }
+
+    section.agente {
+        background: none;
+    }
+
+    .agente p {
+        color: black;
+    }
+
+    section.agente ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    section.agente ul li {
+        background-color: white;
+        margin: 0 10px 0 10px;
+        padding: 10px 10px 10px 10px;
+        flex: 1;
+        border-radius: 10px;
+
+    }
+
+    section.agente img {
+        border-radius: 10px;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    section.agente p {
+        margin-bottom: 15px;
+    }
+
+    section.agente h3 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    section.agente h4 {
+        font-style: italic;
+        margin-bottom: 15px;
+    }
+
+    footer {
+        padding: 80px 0 80px 0;
+    }
+
+    footer p img {
+        width: 40px;
+    }
 }
