@@ -30,7 +30,7 @@ h2 {
 header img {
     padding: 6px 0 0 0;
     width: 5rem;
-    height: auto;
+    height: 5rem;
 }
 
 header ul {
@@ -46,6 +46,17 @@ header ul li:hover {
 
 header ul li {
     padding: 1vw 2vw 1vw 2vw
+}
+
+/* deixa de 2 em 2 o header pra celular*/
+header ul li ul {
+    display: flex;
+    gap: 20px;
+}
+
+header ul li ul li {
+    margin: 10px 40px 10px 40px;
+    font-size: 0.8rem;
 }
 
 main {
@@ -108,16 +119,7 @@ footer p {
     color: white;
 }
 
-/* deixa de 2 em 2 o header pra celular*/
-header ul li ul {
-    display: flex;
-    gap: 20px;
-}
 
-header ul li ul li {
-    margin: 10px 40px 10px 40px;
-    font-size: 0.8rem;
-}
 
 
 @media only screen and (min-width: 600px) {
