@@ -89,8 +89,8 @@ footer a img{
 }
 footer p{
     font-weight: lighter;
-    font-size: small;
-    color: rgb(146, 53, 10);
+    font-size: 0.9rem;
+    color: white;
 }
 
 
@@ -171,7 +171,7 @@ footer a img{
 }
 footer p{
     font-weight: lighter;
-    font-size: small;
+    font-size: 0.67rem;
     
 }
 footer {

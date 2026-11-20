@@ -1,42 +1,6 @@
-.topico {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+section {
   text-align: center;
-}
-
-section.topicos {
-  background-color: #eb922c;
-  margin: 2vw;
-  padding: 30px;
-}
-
-section.topicos ul li {
-  padding: 0;
-  background-color: white;
-  border-radius: 3vw;
-  font-size: small;
-  margin: 10px;
-  align-items: center;
-}
-
-section.topicos ul li a img {
-  width: 87px;
-  display: block;
-}
-
-section.topicos ul li a.topico {
-  display: flex;
-  flex-direction: column;
-  background-color: #ffffff;
-  border-radius: 20px;
-  padding: 24px 30px;
-}
-
-section.primeiro {
-  text-align: center;
-  margin: 20px 0 50px 0;
+  margin: 20px 20vw 50px 20vw;
 }
 
 section ol {
@@ -93,7 +57,7 @@ section.primeiro ol li div {
 }
 
 section.primeiro {
-  width: 100%;
+  width: 95%;
   padding: 7vw 0 7vw 0;
 }
 
@@ -102,40 +66,27 @@ section#resultadoFinal h1 {
   font-weight: bolder;
   margin: 3vw;
 }
-footer{
+
+footer {
   padding: 20px 0 10vw 0;
 }
-h2{
+
+h2 {
   font-size: 1.7rem;
 }
-section.primeiro h1,
-section#resultadoFinal{
-  font-size: 2.3rem;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-@media only screen and (max-width: 600px) {
-  section.topicos {
-    background-color: #eb922c;
-    padding: 3.6vw;
-    margin: 5vw;
-  }
-  section.topicos ul li a img{
-    display: none;
-  }
-  section.topicos ul li {
-    margin: 10px;
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
-    font-weight: lighter;
-    color: rgb(146, 53, 10);
-    border-radius: 5vw;
-    font-size: 1.3rem;
-  }
 
-  section.topicos ul li a.topico {
-    padding: 3.5vw;
-  }
-  h2{
-  font-size: 1rem;
+section.primeiro h1,
+section#resultadoFinal {
+  font-size: 2.3rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+
+  h2 {
+    font-size: 1rem;
+  }
+  section{
+    margin: 7px;
+  }
 }

@@ -17,61 +17,223 @@
         </div>
         <div class="topo">
             <nav>
-            <ul>
-                <li>
-                    <a href="../Davi/index.html">Wiki Maia</a>
-                </li>
-                <li>
-                    <a href="../Henrique/index.html">Sobre nós</a>
-                </li>
-                <li>
-                    <a href="../Nicolly/index.html">Formulário</a>
-                </li>
-                <li>
-                    <a href="index.html">Quiz</a>
-                </li>
-            </ul>
-        </nav>
+                <ul>
+                    <li>
+                        <a href="../Davi/index.html">Wiki Maia</a>
+                    </li>
+                    <li>
+                        <a href="../Henrique/index.html">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a href="../Nicolly/index.html">Formulário</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Quiz</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
-        <section class="topicos">
-            <ul>
-                <li>
-                <a href="index.html">
-                    <img src="../Imagens/casinha.png" alt="">
-                    como jogar
-                      </a>
-                </li>
-                <li>
-                    <a href="quiz1.html">
-                        <img src="../Imagens/matematica.png" alt="">
-                        quiz
-                    </a>
-                </li>
-            </ul>
+        <section class="primeiro">
 
-            
+            <ol>
+                <li id="perg1">
+                    <h1>É hora do show!</h1>
+                    <h2><span>1 -</span> Qual era a forma de governo dos maias?</h2>
+                    <ul>
+                        <li>
+                            <label onclick="validarResposta(this,'1')">
+                                <input type="radio" value="0" name="pergunt1">
+                                Eles vivam na mata sem organização política
+                            </label>
+
+
+                        </li>
+                        <li>
+                            <label onclick="validarResposta(this,'1')">
+                                <input type="radio" value="1" name="pergunt1">
+                                Eles se organizavam por meio de uma
+                                hierarquia, com varios papeis para cada classe
+                            </label>
+
+                        </li>
+                        <li>
+                            <label onclick="validarResposta(this,'1')">
+                                <input type="radio" value="0" name="pergunt1">
+                                Eles eram organizados por meio do livre mercado
+                            </label>
+                        </li>
+                        <li>
+                            <label onclick="validarResposta(this,'1')">
+                                <input type="radio" value="0" name="pergunt1">
+                                Eles mudavam constantemente de forma de governo,
+                                sempre buscando melhores meios de organização social
+                            </label>
+                        </li>
+                    </ul>
+
+                    
+
+                <!--pergunta 2-->
+
+                <li id="perg2">
+                    <h2><span>2 -</span> Qual era o principal alimento da cultura Maia? </h2>
+                    <ul>
+                        <li>
+                            <label onclick="validarResposta(this,'2')">
+                                <input type="radio" value="0" name="pergunt2">
+                                Antropofagismo
+                            </label>
+
+                        </li>
+                        <li>
+                            <label onclick="validarResposta(this,'2')">
+                                <input type="radio" value="0" name="pergunt2">
+                                Bananas e cocos
+                            </label>
+
+                        </li>
+                        <li>
+                            <label onclick="validarResposta(this,'2')">
+                                <input type="radio" value="0" name="pergunt2">
+                                Batatas
+                            </label>
+
+                        </li>
+                        <li>
+                            <label onclick="validarResposta(this,'2')">
+                                <input type="radio" value="1" name="pergunt2">
+                                Milho
+                            </label>
+                        </li>
+                    </ul>
+                </li>
+
+                <!--pergunta 3-->
+
+                <li id="perg3">
+                    <h2><span>3 -</span> O que ocorria com os sujeitos que mais sabiam matemática?</h2>
+                    <ul>
+                        <li>
+                            <label onclick="validarResposta(this,'3')">
+                                <input type="radio" value="0" name="pergunt3">
+                                Absolutamente nada
+                            </label>
+                        </li>
+                        <li>
+                            <label onclick="validarResposta(this,'3')">
+                                <input type="radio" value="1" name="pergunt3">
+                                Eram considerados a elite da cultura, ocupando cargos
+                                como escribas, sarcedotes, etc
+                            </label>
+                        </li>
+                        <li>
+                            <label onclick="validarResposta(this,'3')">
+                                <input type="radio" value="0" name="pergunt3">
+                                Eram privilegiados com palácios de
+                                ouro, assim com a cidade de El Dorado
+                            </label>
+                        </li>
+                        <li>
+                            <label onclick="validarResposta(this,'3')">
+                                <input type="radio" value="0" name="pergunt3">
+                                Ganhavam um baixo salário, o
+                                que inspira o modelo atual de ensino
+                            </label>
+                        </li>
+                    </ul>
+                </li>
+
+                <!--pergunta 4-->
+
+                <li id="perg4">
+                    <h2><span>4 -</span> Sobre como eles enxergavam o mundo, é correto afirmar que:</h2>
+                    <ul>
+                        <li>
+                            <label onclick="validarResposta(this,'4')">
+                                <input type="radio" value="1" name="pergunt4">
+                                Eles viam como algo sagrado e num ciclo eterno
+                            </label>
+
+                        </li>
+                        <li>
+                            <label onclick="validarResposta(this,'4')">
+                                <input type="radio" value="0" name="pergunt4">
+                                Viam como uma esfera perfeita
+                            </label>
+
+                        </li>
+                        <li>
+                            <label onclick="validarResposta(this,'4')">
+                                <input type="radio" value="0" name="pergunt4">
+                                Acreditavam que o Sol e a Lua eram um casal,
+                                inspirando vários contos infantis
+                            </label>
+
+                        </li>
+                        <li>
+                            <label onclick="validarResposta(this,'4')">
+                                <input type="radio" value="0" name="pergunt4">
+                                Não achavam nada, pois não se tem
+                                registros de crenças em relação aos Maias
+                            </label>
+
+                        </li>
+                    </ul>
+                </li>
+
+                <!--pergunta 5-->
+
+                <li id="perg5">
+                    <h2><span>5 -</span> Sem misericórdia.</h2>
+                    <p>
+                        faça contas nas questões e clique na qual tenha o resultado
+                        do ano do primeiro contato dos Maias com os europeus
+                    </p>
+                    <ul>
+                        <li>
+                            <label onclick="validarResposta(this,'5')">
+                                <input type="radio" value="0" name="pergunt5">
+                                1502 * (1/2 - 2/4)
+                            </label>
+
+                        </li>
+                        <li>
+                            <label onclick="validarResposta(this,'5')">
+                                <input type="radio" value="0" name="pergunt5">
+                                1450 + 34
+                            </label>
+
+                        </li>
+                        <li>
+                            <label onclick="validarResposta(this,'5')">
+                                <input type="radio" value="1" name="pergunt5">
+                                (92.18 - 32.1) * 25
+                            </label>
+                        </li>
+                        <li>
+                            <label onclick="validarResposta(this,'5')">
+                                <input type="radio" value="0" name="pergunt5">
+                                ( 8000 * 0.34) - 11.5
+                            </label>
+                        </li>
+                    </ul>
+                    <p>
+                        Prepare-se aos seus resultados!!
+                    </p>
+                </li>
+            </ol>
+            <script src="script.js"></script>
 
         </section>
-        <section class="primeiro">
-            
-        <h1>Que os jogos começem!</h1>
-            <h2>Aqui, você tem a oportunidade de por seu 
-                conhecimento em prática em forma de um 
-                <span>Quiz</span>!</h2>
-            <p>
-                Caso não conheça, um quiz é um jogo de
-                 perguntas onde você
-                tenta acertar o máximo de perguntas sobre certo tema.
-            </p>
-            <p>
-                serão 5 humildes perguntas humildes sem tempo
-                 de resposta, e diversão garantida!
-            </p>
-            
-            
+        <section id="resultadoFinal">
+            <h1>
 
+            </h1>
+            <p>
+
+            </p>
         </section>
     </main>
     <footer>
@@ -86,8 +248,9 @@
         <p>
             © 2026 IFC Campus Araquari. Todos os direitos reservados.
         </p>
-        <p><a href="/páginas/Henrique/index.html">Conheça nossa equipe!</a></p>
+        <p><a href="../Henrique/index.html">Conheça nossa equipe!</a></p>
 
     </footer>
 </body>
+
 </html>

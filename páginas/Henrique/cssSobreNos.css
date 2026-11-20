@@ -215,8 +215,8 @@ footer a img{
 }
 footer p{
     font-weight: lighter;
-    font-size: small;
-    
+    font-size: 0.9rem;
+    color: white;
 }
 section.agente{
     background: none;
