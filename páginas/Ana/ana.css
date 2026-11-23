@@ -114,6 +114,22 @@ footer p {
     color: rgb(146, 53, 10);
 }
 
+.primeiro p.fonte {
+    color: #995f45;
+    font-size: 0.4rem;
+    padding: 0;
+    padding: 0 5px;
+}
+
+.primeiro p.fonte-link {
+    color: #995f45;
+    font-size: 0.55rem;
+    padding: 0;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 0 5px;
+}
+
 
 
 @media only screen and (min-width: 600px) {
