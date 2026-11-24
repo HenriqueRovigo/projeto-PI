@@ -1,9 +1,9 @@
-# Registro de Atas — Projeto Integrador I
+# Registro de Atas - Projeto Integrador I
 
 **Civilização Maia: Avanços, Conhecimentos e Legado**   
 
-**Instituto Federal Catarinense — Campus Araquari**                  
-**SEPE 2026 — Semana de Ensino, Pesquisa e Extensão**                                             
+**Instituto Federal Catarinense - Campus Araquari**                  
+**SEPE 2026 - Semana de Ensino, Pesquisa e Extensão**                                             
 **Painel de Integração de Conhecimentos**           
 **Curso:** Informática para Internet        
 **Turma:** 1INFO2            
@@ -349,7 +349,7 @@ Nenhum.
 **Assunto:** Continuidade dos ajustes na página “Sobre nós” e organização dos registros do projeto no GitHub.
 
 **Ausentes:**
-- Emanuel (justificativa: não informada).
+- Emanuel (justificativa: infecção intestinal).
 
 **Decisões:**
 - O grupo deu continuidade aos ajustes finais do site, concentrando os esforços na página “Sobre nós”.
@@ -361,6 +361,41 @@ Nenhum.
 - Henrique realizou ajustes no CSS da página “Sobre nós”, trabalhando no alinhamento dos elementos e em melhorias na apresentação visual.
 
 ---
+
+## ATA 19 - 12/11/2026
+
+**Assunto:** Melhorias no site e organização dos arquivos do projeto no GitHub.
+
+**Ausentes:**
+Nenhum.
+
+**Decisões:**
+- Ana e Nicolly decidiram desenvolver um submenu para o site, aplicando os conhecimentos adquiridos recentemente nas aulas de Desenvolvimento Web I.
+- O grupo optou por separar o registro das reuniões em um arquivo ATAS.md, mantendo no README.md apenas a apresentação e as informações gerais do projeto, com um link para acessar as atas.
+
+**Encaminhamentos:**
+- Ana e Nicolly realizaram pequenos ajustes no site, incluindo revisões nos textos e em outros detalhes das páginas.
+- Ana fez pequenas alterações no CSS de sua página e na página de Emanuel, além de enviar as modificações ao GitHub por meio de um commit.
+- Davi deu continuidade à organização do README.md, melhorando a apresentação das informações sobre o trabalho e separando o registro das reuniões no arquivo ATAS.md, que será disponibilizado por meio de um link no README.md.
+
+---
+
+## ATA 20 - 19/11/2026
+
+**Assunto:** Elaboração do relatório geral do terceiro trimestre e continuidade dos ajustes no projeto.
+
+**Ausentes:**
+Nenhum.
+
+**Decisões:**
+- Foi iniciada a elaboração de um relatório geral referente ao terceiro trimestre, reunindo informações sobre o desenvolvimento do projeto, as atividades realizadas pelos integrantes e as ausências durante o período.
+- O documento foi compartilhado entre os integrantes para que todos possam contribuir com suas respectivas informações.
+
+**Encaminhamentos:**
+- Emanuel iniciou a elaboração do relatório geral do terceiro trimestre, incluindo o link do site, o link do repositório, as atividades realizadas por cada integrante e a quantidade de ausências, e compartilhou o documento com o grupo.
+- Ana e Nicolly começaram a preencher o documento com as atividades que realizaram e seus respectivos registros de ausência.
+- Henrique converteu as imagens utilizadas no site para o formato SVG e realizou ajustes no rodapé (footer).
+- Davi deu continuidade à organização e aos ajustes das atas no GitHub.
 
 ## Considerações finais
 
