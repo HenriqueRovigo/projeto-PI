@@ -327,6 +327,14 @@ header ul li ul li {
     footer p img {
         width: 40px;
     }
+    .agente ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+    }
 }
 @media only screen and (max-width: 340px) {
     header ul li ul {
