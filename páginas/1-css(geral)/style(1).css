@@ -85,7 +85,10 @@ section.topicos ul li {
     font-size: small;
     color: rgb(146, 53, 10);
 }
-
+section.topicos ul li:hover{
+    color: #741f0a;
+    background-color: rgb(245, 247, 118);
+}
 section.primeiro h1 {
     padding: 2vw 5vw 7vw 2vw;
     font-size: larger;

@@ -1,7 +1,8 @@
-section.primeiro div.intro-conteudo h2{
+section.primeiro div.intro-conteudo h2 {
     font-size: 0.7rem;
     padding: 20px;
 }
+
 /* Estilo da página inicial - Wiki Maia */
 .intro-conteudo {
     display: grid;
@@ -138,10 +139,16 @@ section.primeiro .intro-texto p {
         margin: 0 4vw 4vw;
     }
 
+    section.topicos img {
+        display: none;
+    }
+
 }
-footer{
+
+footer {
     color: white;
 }
+
 @media only screen and (max-width: 380px) {
     .destaques {
         grid-template-columns: 1fr;
