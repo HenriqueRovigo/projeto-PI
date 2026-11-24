@@ -98,7 +98,7 @@ footer a img {
 footer p {
     font-weight: lighter;
     font-size: small;
-
+    margin: 20px;
 }
 
 section.agente {
@@ -141,6 +141,10 @@ section.agente h3 {
 section.agente h4 {
     font-style: italic;
     margin-bottom: 15px;
+}
+
+footer p a:hover {
+    color: black;
 }
 
 /* deixa de 2 em 2 o header pra celular*/
@@ -325,12 +329,13 @@ header ul li ul li {
     }
 }
 @media only screen and (max-width: 340px) {
-  header ul li ul {
-    display: block;
-    gap: 20px;
-  }
+    header ul li ul {
+        display: block;
+        gap: 20px;
+    }
 
-  header ul li ul li {
-    padding: 20px;
-  }
+    header ul li ul li {
+        padding: 20px;
+    }
 }
+
