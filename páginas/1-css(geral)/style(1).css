@@ -80,8 +80,9 @@ section.topicos ul li {
     margin: 2.7vw;
     background-color: rgb(255, 255, 255);
     border-radius: 5vw;
-    font-size: 0.7rem;
+    font-size: small;
     font-weight: lighter;
+    font-size: small;
     color: rgb(146, 53, 10);
 }
 section.topicos ul li:hover{
@@ -156,6 +157,11 @@ footer p {
         display: flex;
 
         color: rgb(255, 255, 255);
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
     }
 
     header ul li:hover {
