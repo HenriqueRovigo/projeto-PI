@@ -69,9 +69,6 @@ section.topicos ul li {
     margin: 2.7vw;
     background-color: rgb(255, 255, 255);
     border-radius: 5vw;
-    font-size: small;
-    font-weight: lighter;
-    font-size: small;
     color: rgb(146, 53, 10);
 }
 
@@ -108,10 +105,6 @@ footer a img {
     height: auto;
 }
 
-footer p {
-    font-weight: lighter;
-    color: rgb(146, 53, 10);
-}
 
 .primeiro p.fonte {
     color: #995f45;
@@ -180,7 +173,6 @@ footer p {
         margin: 2.7vw;
         background-color: white;
         border-radius: 3vw;
-        font-size: small;
     }
 
     section.topicos ul li a img {

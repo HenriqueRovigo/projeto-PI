@@ -80,9 +80,8 @@ section.topicos ul li {
     margin: 2.7vw;
     background-color: rgb(255, 255, 255);
     border-radius: 5vw;
-    font-size: small;
+    font-size: 0.7rem;
     font-weight: lighter;
-    font-size: small;
     color: rgb(146, 53, 10);
 }
 section.topicos ul li:hover{
