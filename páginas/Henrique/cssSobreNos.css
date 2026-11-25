@@ -6,8 +6,9 @@ html {
 
 header {
     background-color: #eb922c;
-    display: flex;
+    display: block;
     justify-content: space-between;
+    text-align: center;
 }
 
 .logo {
@@ -170,6 +171,7 @@ header ul li ul li {
         gap: 20px;
         background-color: #eb922c;
         justify-content: space-between;
+        
     }
 
     header img {
@@ -179,6 +181,11 @@ header ul li ul li {
 
     header ul {
         display: flex;
+          flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
         font-size: 0.67rem;
         text-align: end;
         color: rgb(255, 255, 255);
